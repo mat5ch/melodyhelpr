@@ -1,0 +1,69 @@
+body {
+    background: black !important;
+    font-family: Menlo;
+    color: whitesmoke;
+    /* justify-content: center;
+    align-items: center;
+    padding: 10px; */
+    padding: 15px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.card {
+    background: black;
+    border: 1px solid grey;
+    margin: 10px;
+}
+
+.card-header {
+    margin-top: 10px;
+}
+
+.card-footer {
+    padding: 0px;
+}
+
+.row {
+    margin: 12px;
+}
+
+.chord-list {
+    font-size: 14px;
+}
+
+.main-spinner {
+    position: absolute;
+    top: 47.5%;
+    left: 47.5%;
+}
+
+.surr-canvas.container {
+    /* width: fit-content;
+    height: fit-content; */
+    padding: 0px;
+}
+
+.surr-canvas.container.selected {
+    box-shadow: -3px -3px 5px red;
+}
+
+#canvas {
+    border: 1px solid grey; 
+    display: block;
+    margin: auto;
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.modal-content {
+    background-color: #777777;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+
